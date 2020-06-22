@@ -8,6 +8,10 @@ a {
     color: white;
 }
 
+a:hover {
+    /* text-decoration: underline; */
+}
+
 .navLinks {
     text-decoration: none;
     color: rgb(233, 226, 226);
@@ -20,8 +24,10 @@ a {
     /* color: rgb(244, 45, 0); */
     color: white;
     transform: scale(1);
-    text-shadow: 3px 2px rgb(48, 126, 145);
-    transition: all 1s ease;
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+    /* text-shadow: 3px 2px rgb(48, 126, 145); */
+    /* transition: all 1s ease; */
 }
 
 ul {
