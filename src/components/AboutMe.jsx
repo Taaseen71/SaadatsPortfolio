@@ -1,7 +1,25 @@
-import React from 'react'
-import "./AboutMe.css"
+import React, { useState } from 'react';
+import "./AboutMe.css";
+import { Document, Page, pdfjs } from "react-pdf";
+import { Link } from "react-router-dom";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 
 export default function AboutMe() {
+
+    const [numPages, setNumPages] = useState(null);
+    const [pageNumber, setPageNumber] = useState(1);
+    const [showResume, setShowResume] = useState(false);
+
+    function onDocumentLoadSuccess({ numPages }) {
+        setNumPages(numPages);
+    }
+
+    const showResumeClick = () => {
+        setShowResume(!showResume);
+        console.log(showResume);
+    }
+
     return (
         <div>
             <h1 className="Heading">About Me</h1>
@@ -14,11 +32,27 @@ export default function AboutMe() {
 
                     When i’m not working I am creating things in the world of music.
                     <br /><br />
-
-
-
                 </p>
             </div>
+
+            <button className="showResumeButton">
+                <Link to="/resume"> View My Resume </Link>
+            </button>
+
+            {/* //! FULLY FUNCTIONAL BUTTON PRESS RESUME SHOW HERE: JUST UNCOMMENT */}
+            {/* <div>
+                <button className="showResumeButton" onClick={showResumeClick}>Show Resume</button>
+                {showResume && (
+                    <div className="AboutMeResume">
+                        <Document
+                            file="Resume.pdf"
+                            onLoadSuccess={onDocumentLoadSuccess}
+                        >
+                            <Page pageNumber={pageNumber} />
+                        </Document>
+                    </div>
+                )}
+            </div> */}
         </div>
     )
 }

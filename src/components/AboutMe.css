@@ -14,3 +14,29 @@
 .Heading {
     padding-top: 50px;
 }
+
+.AboutMeResume {
+    display: flex;
+    justify-content: center;
+}
+
+.showResumeButton {
+    margin: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2px 0.51px #393939;
+    border: none;
+    background: rgb(59, 155, 178);
+    outline: none;
+}
+
+.showResumeButton:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 1px #ffffff;
+    transform: translateY(3px);
+}
+
+.showResumeButton:hover {
+    box-shadow: 0 1px #ffffff;
+    padding-bottom: 10px;
+}

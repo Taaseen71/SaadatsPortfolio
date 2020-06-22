@@ -1,6 +1,5 @@
 import React from 'react';
 import "./ContactSection.css";
-import TextareaAutosize from 'react-autosize-textarea';
 import JotformEmbed from "react-jotform-embed";
 
 export default function ContactSection() {
@@ -17,8 +16,10 @@ export default function ContactSection() {
                     </li>
                 </ul>
             </h3>
-            {/* <JotformEmbed src="https://form.jotform.com/jsform/201731473395153" /> */}
-            {/* <a href="javascript:void( window.open( 'https://form.jotform.com/201731473395153', 'blank', 'scrollbars=yes, toolbar=no, width=700, height=500' ) ) "> General Inquiry Contact Form </a> */}
+            <h3>
+                <br /><br /><br />
+                OR
+            </h3>
             <div className="iframeDivWrapper">
                 <div className="iframeDiv">
                     <iframe className="iframe" id="JotFormIFrame-201731473395153" title="General Inquiry Contact Form" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/201731473395153" frameborder="0"  > </iframe>
