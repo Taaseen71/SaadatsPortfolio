@@ -9,9 +9,9 @@ export default function MyProjects() {
             <div className="projects">
                 <div className="videoDescriptionDiv">
                     <div className="videoPlayerDiv" >
-                        <h3>
+                        <h3 className="reactPlayer">
                             Project1: Saad's Pokedex
-                    <ReactPlayer url="https://youtu.be/1mbmxeTaXkI" width="500px" />
+                    <ReactPlayer url="https://youtu.be/1mbmxeTaXkI" width="100%" />
                         </h3>
                     </div>
                     <div className="projectDescriptionDiv">
@@ -25,9 +25,9 @@ export default function MyProjects() {
 
                 <div className="videoDescriptionDiv">
                     <div className="videoPlayerDiv" >
-                        <h3>
+                        <h3 className="reactPlayer">
                             Project2: CoVid19 Tracker
-                    <ReactPlayer url="https://youtu.be/J0c6yYG2u9U" width="500px" />
+                    <ReactPlayer url="https://youtu.be/J0c6yYG2u9U" width="100%" />
                         </h3>
                     </div>
                     <div className="projectDescriptionDiv">
@@ -42,9 +42,9 @@ export default function MyProjects() {
 
                 <div className="videoDescriptionDiv">
                     <div className="videoPlayerDiv" >
-                        <h3>
+                        <h3 className="reactPlayer">
                             Project3: ShipDev
-                    <ReactPlayer url="https://youtu.be/GxP9U9IJtu0" width="500px" />
+                    <ReactPlayer url="https://youtu.be/GxP9U9IJtu0" width="100%" />
                         </h3>
                     </div>
                     <div className="projectDescriptionDiv">
@@ -58,9 +58,9 @@ export default function MyProjects() {
 
                 <div className="videoDescriptionDiv">
                     <div className="videoPlayerDiv" >
-                        <h3>
+                        <h3 className="reactPlayer">
                             Project4: Read-It-Blog
-                    <ReactPlayer url="https://youtu.be/qfpoo05eB3E" width="500px" />
+                    <ReactPlayer url="https://youtu.be/qfpoo05eB3E" width="100%" />
                         </h3>
                     </div>
                     <div className="projectDescriptionDiv">

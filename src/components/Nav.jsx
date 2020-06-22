@@ -9,7 +9,7 @@ export default function Nav() {
                 <h1>
                     Saadat Taaseen
                 </h1>
-                <img src="https://i.imgur.com/hBpUuTE.jpg" width="700px" alt="" />
+                <img className="heroImage" src="https://i.imgur.com/hBpUuTE.jpg" width="700px" alt="HeroImage" />
             </header>
             <ul>
                 <li><Link className="navLinks" to="/">About Me</Link></li>

@@ -6,16 +6,17 @@ export default function ContactSection() {
     return (
         <div>
             <h1 className="Heading">Contact Section</h1>
-            <h3>
-                <ul className="socialMediaNav">
-                    <li>
+            <h3 >
+                <ul>
+                    <li className="socialMediaList">
                         <a className="socialMediaLink" href="https://www.linkedin.com/in/taaseen71/">LinkedIn</a><br />
                     </li>
-                    <li>
+                    <li className="socialMediaList">
                         <a className="socialMediaLink" href="https://www.instagram.com/ohsaad/">Instagram</a><br />
                     </li>
                 </ul>
             </h3>
+
             <h3>
                 <br /><br /><br />
                 OR

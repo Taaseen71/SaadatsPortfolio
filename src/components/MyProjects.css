@@ -28,6 +28,7 @@
     width: 500px;
     color: white;
     font-size: 15px;
+    text-align: justify;
     /* text-shadow: 1px 2px black; */
     ;
 }
@@ -39,6 +40,10 @@
     border: 1px dotted black;
     background: black;
     border-radius: 8px;
+}
+
+.reactPlayer {
+    width: 500px;
 }
 
 .videoDescriptionDiv:hover {
@@ -53,13 +58,22 @@
 }
 
 .linkToWebsite:hover {
-    /* color: rgb(230, 214, 38); */
-    /* transition: all 2s ease; */
-    /* padding-bottom: 10px; */
-    /* border-bottom: 2px solid white; */
     text-decoration: underline;
 }
 
 .websiteLinks {
     padding-bottom: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    .videoDescriptionDiv {
+        width: 300px;
+    }
+    .videoPlayerDiv {
+        /* width: 280px; */
+        margin: 10px 10px;
+    }
+    .reactPlayer {
+        width: 300px;
+    }
 }

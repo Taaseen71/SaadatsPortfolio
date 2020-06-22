@@ -35,3 +35,19 @@
     margin-bottom: 100px;
     border-radius: 10px;
 }
+
+@media screen and (max-width: 480px) {
+    .socialMediaLink {
+        font-size: 15px;
+    }
+    .socialMediaList {
+        padding: 20px 0;
+    }
+    .iframeDiv {
+        height: 800px;
+        width: 300px;
+        border: none;
+        background: rgb(59, 155, 178);
+        scroll-behavior: none;
+    }
+}

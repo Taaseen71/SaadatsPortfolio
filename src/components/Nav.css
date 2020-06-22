@@ -8,10 +8,6 @@ a {
     color: white;
 }
 
-a:hover {
-    /* text-decoration: underline; */
-}
-
 .navLinks {
     text-decoration: none;
     color: rgb(233, 226, 226);
@@ -40,7 +36,8 @@ ul {
 }
 
 li {
-    padding-left: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .resume {
@@ -48,4 +45,58 @@ li {
     justify-content: center;
     border-radius: 15px;
     margin-top: 50px;
+    /* margin-bottom: 50px; */
+}
+
+.iFrameResume {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+.resumePNG {
+    display: none;
+}
+
+.downloadResume {
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 480px) {
+    .heroImage {
+        width: 300px;
+    }
+    ul {
+        flex-direction: column;
+    }
+    .navLinks {
+        font-size: 18px;
+    }
+    .navLinks:hover {
+        border-bottom: none;
+    }
+    .navLinks:active {
+        color: white;
+        padding-bottom: 2px;
+        border-bottom: 1px solid white;
+        color: rgb(198, 196, 196);
+    }
+    li {
+        padding-top: 10px;
+    }
+    .resume {
+        display: none;
+    }
+    .iFrameResume {
+        width: 250px;
+    }
+    .resumePNG {
+        display: flex;
+        justify-content: center;
+    }
+    .resumePNG2 {
+        border-radius: 5px;
+        margin: 20px auto;
+    }
 }
