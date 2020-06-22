@@ -1,0 +1,53 @@
+.projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.videoDescriptionDiv {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 40px;
+    border: 1px solid inherit;
+    background: rgba(61, 61, 61, 0.7);
+    border-radius: 8px;
+    /* #2d95b0; */
+    /* rgba(41, 136, 160, 0.3); */
+}
+
+.projectDescriptionDiv {
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    font-size: 14px;
+}
+
+.projectDescriptionParagraph {
+    width: 500px;
+}
+
+.videoPlayerDiv {
+    display: flex;
+    margin: 30px 50px;
+    justify-content: center;
+    border: 1px dotted black;
+    background: black;
+    border-radius: 8px;
+}
+
+.videoDescriptionDiv:hover {
+    transform: scale(1.01);
+    box-shadow: 5px 10px 10px 2px rgb(48, 126, 145);
+    transition: all 1s ease;
+}
+
+.linkToWebsite {
+    padding: 15px;
+}
+
+.linkToWebsite:hover {
+    color: rgb(230, 214, 38);
+    transition: all 2s ease;
+}

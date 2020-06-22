@@ -1,0 +1,15 @@
+.aboutMeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.aboutMeParagraph {
+    margin-top: 0;
+    width: 800px;
+    font-size: 20px;
+    text-shadow: 0.2px 0.5px #393939;
+}
+
+.Heading {
+    padding-top: 50px;
+}

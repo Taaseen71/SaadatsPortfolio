@@ -1,0 +1,38 @@
+body {
+    background: rgb(59, 155, 178);
+    /* background: rgb(59, 155, 145); */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks {
+    text-decoration: none;
+    color: rgb(233, 226, 226);
+    text-shadow: 3px 2px #393939;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.navLinks:hover {
+    /* color: rgb(244, 45, 0); */
+    color: white;
+    transform: scale(1);
+    text-shadow: 3px 2px rgb(48, 126, 145);
+    transition: all 1s ease;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    padding-left: 20px;
+}
