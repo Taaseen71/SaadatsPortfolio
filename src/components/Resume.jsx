@@ -8,7 +8,7 @@ export default function Resume() {
                     width="850" height="1100" seamless></iframe>
             </div>
             <div className="resumePNG">
-                <img className="resumePNG2" src="ResumeImage.png" alt="ResumeImage" width="250px" />
+                <img className="resumePNG2" src="ResumeImage.png" alt="ResumeImage" width="250px" height="300px" />
             </div>
             <div className="downloadResume">
                 <a href="https://docdro.id/drmtDsK">Download Resume (pdf)</a>
