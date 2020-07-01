@@ -11,7 +11,7 @@ export default function Resume() {
                 <img className="resumePNG2" src="ResumeImage.png" alt="ResumeImage" width="250px" height="300px" />
             </div>
             <div className="downloadResume">
-                <a href="https://docdro.id/drmtDsK">Download Resume (pdf)</a>
+                <a href="https://docdro.id/62rDq5e">Download Resume (pdf)</a>
             </div>
         </div>
     )

@@ -18,8 +18,8 @@ export default function MyProjects() {
                         <p className="projectDescriptionParagraph">This was my first project, and I wanted to apply all the information I learned in 3 weeks. The goal was to make it visually appealing, without compromising functionality, and since this API was solid, it meant the code was less likely to break anytime soon. The project was made with three weeks worth of knowledge of Javascript, and made with only Vanilla JS.</p>
                     </div>
                     <div className="websiteLinks">
-                        <a className="linkToWebsite" href="https://pages.git.generalassemb.ly/GA-taaseen71/SaadsPokeDex/">Link To Website</a>
-                        <a className="linkToWebsite" href="https://git.generalassemb.ly/GA-taaseen71/SaadsPokeDex">Link To GitHub</a>
+                        <a className="linkToWebsite" href="https://taaseen71.github.io/SaadsPokedex/">Link To Website</a>
+                        <a className="linkToWebsite" href="https://github.com/Taaseen71/SaadsPokedex/">Link To GitHub</a>
                     </div>
                 </div>
 
