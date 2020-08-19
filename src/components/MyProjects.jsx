@@ -72,6 +72,27 @@ export default function MyProjects() {
                         <a className="linkToWebsite" href="https://github.com/Taaseen71/ReadIt-Blog">Link To GitHub</a>
                     </div>
                 </div>
+
+                <div className="videoDescriptionDiv">
+                    <div className="videoPlayerDiv" >
+                        <h3 className="reactPlayer">
+                            Project5: Instagram Clone
+                    <ReactPlayer url="https://www.youtube.com/watch?v=MYjmTAFLXN8&t=11s" width="100%" />
+                        </h3>
+                    </div>
+                    <div className="projectDescriptionDiv">
+                        <p className="projectDescriptionParagraph"> This project was a codealong with "thecleverprogrammer". Instaclone consists of a front end using React and a firebase database and backend. It was baffling how simple firebase was to use. Using my experience on the previous projects, creating CRUD and Authentication was a breeze. Really enjoyed making this project.
+                        </p>
+                    </div>
+                    <div className="websiteLinks">
+                        <a className="linkToWebsite" href="https://instaclone-saad.netlify.app/">Link To Website</a>
+                        <a className="linkToWebsite" href="https://github.com/Taaseen71/instaclone-saad">Link To GitHub</a>
+                    </div>
+                </div>
+
+
+
+
             </div>
 
         </>
